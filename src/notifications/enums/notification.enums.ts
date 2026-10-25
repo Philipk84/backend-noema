@@ -1,0 +1,15 @@
+export enum NotificationType {
+  FOLLOW = 'FOLLOW',
+  COMMENT = 'COMMENT',
+  REACTION = 'REACTION',
+  POST_IN_COMMUNITY = 'POST_IN_COMMUNITY',
+  MEMBERSHIP = 'MEMBERSHIP',
+}
+
+export enum NotificationReferenceType {
+  PROFILE = 'PROFILE',
+  ARTICLE = 'ARTICLE',
+  POST = 'POST',
+  COMMENT = 'COMMENT',
+  COMMUNITY = 'COMMUNITY',
+}
